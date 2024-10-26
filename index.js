@@ -11,8 +11,6 @@ app.get("/", (req, res) => {
     res.send("SELAMAT PAGI");
 });
 
-// Gunakan mobilRoute
-
 app.use(bodyParser.json());
 app.use('/mobil', mobilRoute);
 
